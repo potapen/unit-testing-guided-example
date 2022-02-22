@@ -2,7 +2,7 @@ const { TestScheduler } = require("jest");
 const { multiply } = require("./../calculator");
 
 describe('Multiply', () => {
-  // Our tests will be added here.
+  // Our tests will be added here. My test.
   test("multiplying two positive integers should return the correct value and be positive", ()=>{
     const result = multiply(2,5)
     expect(result).toBe(10)
